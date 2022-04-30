@@ -1,4 +1,4 @@
 import React from "react";
 export default function Dictionary() {
-  return <div></div>;
+  return <div className="Dictionary"></div>;
 }
