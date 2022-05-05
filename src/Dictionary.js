@@ -5,7 +5,7 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  let [results, setResults] = useState({});
+  let [results, setResults] = useState(null);
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
@@ -18,7 +18,7 @@ export default function Dictionary() {
   }
 
   function handleResponse(response) {
-    setResults(response.data[0]);
+    setResults(response);
     return <div></div>;
   }
 
@@ -31,7 +31,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         ></input>
       </form>
-      <Results />
+      <Results results={results} />
     </div>
   );
 }
