@@ -5,6 +5,7 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState({});
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
@@ -17,6 +18,7 @@ export default function Dictionary() {
   }
 
   function handleResponse(response) {
+    setResults(response.data[0]);
     return <div></div>;
   }
 
