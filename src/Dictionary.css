@@ -1,0 +1,28 @@
+.Dictionary h2 {
+  color: rgb(98, 98, 98);
+  font-weight: normal;
+}
+
+.Dictionary input {
+  width: 100%;
+  font-size: 24px;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: rgb(98, 98, 98);
+}
+
+.Results {
+  margin: 20px 0;
+  padding: 0 10px 0 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: rgb(98, 98, 98);
+}
+
+.Results h1 {
+  padding: 10px 0 0 0;
+}
+
+.Meaning p {
+  color: rgb(98, 98, 98);
+}
