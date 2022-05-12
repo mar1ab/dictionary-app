@@ -7,16 +7,16 @@ export default function Meaning(props) {
       <h3 className="text-capitalize">{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         return (
-          <div key={index}>
+          <span key={index}>
             <p>
               {definition.definition}
               <br />
               <em>{definition.example}</em>
-              <Synonyms synonyms={definition.synonyms} />
             </p>
-          </div>
+          </span>
         );
       })}
+      <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
 }
