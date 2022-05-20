@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "./Results.css";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 
