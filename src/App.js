@@ -6,7 +6,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App container">
-      <Dictionary />
+      <Dictionary defaultKeyword="dictionary" />
       <p className="footer">
         Built by Maria Bodwell. View on{" "}
         <a
