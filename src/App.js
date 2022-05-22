@@ -14,7 +14,15 @@ export default function App() {
       />
       <Dictionary defaultKeyword="cat" />
       <p className="footer mb-4">
-        Built by Maria Bodwell. View on{" "}
+        Built by Maria Bodwell and hosted on{" "}
+        <a
+          href="https://illustrious-churros-55b8c2.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Netlify
+        </a>
+        . View on{" "}
         <a
           href="https://github.com/mar1ab/dictionary-app"
           target="_blank"
