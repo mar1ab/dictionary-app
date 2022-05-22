@@ -1,6 +1,12 @@
+:root {
+  --primary-color: rgb(124, 124, 124);
+  --secondary-color: rgb(255, 250, 255);
+  --box-shadow: 3px 3px 10px rgba(124, 124, 124);
+}
+
 .Dictionary h2 {
-  color: rgb(98, 98, 98);
   font-weight: normal;
+  font-size: 18px;
 }
 
 .Dictionary input {
@@ -8,25 +14,73 @@
   font-size: 24px;
   border: 1px solid;
   border-radius: 3px;
-  border-color: rgb(98, 98, 98);
+  border-color: var(--secondary-color);
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
 }
 
-.Results {
+.Dictionary section {
   margin: 20px 0;
-  padding: 0 10px 0 10px;
+  padding: 5px;
   border: 1px solid;
   border-radius: 3px;
-  border-color: rgb(98, 98, 98);
+  border-color: var(--secondary-color);
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
 }
 
 .Results h1 {
-  padding: 10px 0 0 0;
+  padding: 10px 0 5px 0;
+}
+
+.Phonetic .phonetic-link {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 20px;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.Phonetic .phonetic-text {
+  display: inline;
+  line-height: 3.5;
+}
+
+.Meaning {
+  margin: 20px 0;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: var(--secondary-color);
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
 }
 
 .Meaning p {
-  color: rgb(98, 98, 98);
+  color: var(--primary-color);
 }
 
-.Synonyms {
-  color: rgb(98, 98, 98);
+.Synonyms ul {
+  color: var(--primary-color);
+}
+
+.Photos {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: var(--secondary-color);
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.Photos img {
+  padding: 10px;
+}
+
+.Photos a {
+  color: var(--primary-color);
 }

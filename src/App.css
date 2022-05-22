@@ -1,12 +1,33 @@
+:root {
+  --primary-color: rgb(98, 98, 98);
+  --secondary-color: rgb(255, 255, 255);
+}
+
+body {
+  background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+}
+
 .container {
   margin: 30px 100px;
 }
 
+.App .title {
+  text-align: center;
+}
+
+.App .cat-img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 3px;
+  max-width: 150px;
+}
+
 .App .footer {
-  color: rgb(98, 98, 98);
+  color: var(--primary-color);
   margin: 20px 0 0 0;
+  text-align: center;
 }
 
 .App .footer a {
-  color: rgb(98, 98, 98);
+  color: var(--primary-color);
 }

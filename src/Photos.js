@@ -10,14 +10,24 @@ export default function Photos(props) {
             return (
               <div className="col-4" key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
-                  <img src={photo.src.landscape} className="img-fluid" />
+                  <img
+                    src={photo.src.landscape}
+                    className="img-fluid image"
+                    alt="example"
+                  />
                 </a>
               </div>
             );
           })}
         </div>
-        <a href="https://www.pexels.com" target="_blank" rel="noreferrer">
-          Photos provided by Pexels
+        Photos provided by{" "}
+        <a
+          href="https://www.pexels.com"
+          target="_blank"
+          rel="noreferrer"
+          className="pexels-link"
+        >
+          Pexels
         </a>
       </section>
     );
