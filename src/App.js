@@ -5,7 +5,7 @@ import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="App container">
+    <div className="App container-sm">
       <h1 className="title">Let's look it up!</h1>
       <img
         className="cat-img"
@@ -13,7 +13,7 @@ export default function App() {
         alt="researching cat"
       />
       <Dictionary defaultKeyword="cat" />
-      <p className="footer">
+      <p className="footer mb-4">
         Built by Maria Bodwell. View on{" "}
         <a
           href="https://github.com/mar1ab/dictionary-app"
