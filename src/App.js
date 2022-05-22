@@ -10,6 +10,7 @@ export default function App() {
       <img
         className="cat-img"
         src="https://i0.wp.com/aaronsanimals.com/wp-content/uploads/2015/08/Look_At_Me_I_Love_Reading1.gif?ssl=1"
+        alt="researching cat"
       />
       <Dictionary defaultKeyword="cat" />
       <p className="footer">

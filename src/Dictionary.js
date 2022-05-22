@@ -49,7 +49,7 @@ export default function Dictionary(props) {
 
   if (loaded) {
     return (
-      <div className="Dictionary">
+      <div className="Dictionary container-sm">
         <h2>Search for a definition...</h2>
         <form onSubmit={handleSubmit}>
           <input
