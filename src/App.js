@@ -11,7 +11,7 @@ export default function App() {
         className="cat-img"
         src="https://i0.wp.com/aaronsanimals.com/wp-content/uploads/2015/08/Look_At_Me_I_Love_Reading1.gif?ssl=1"
       />
-      <Dictionary defaultKeyword="dictionary" />
+      <Dictionary defaultKeyword="cat" />
       <p className="footer">
         Built by Maria Bodwell. View on{" "}
         <a
